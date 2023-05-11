@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        body{
+        
+        background-color: rgb(253,245,230);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        h1{
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+            font-size: medium;
+            
+        }
+
+        div{
+            
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        
+
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+    
+    <div>
+
+        <h1 align="center">Dia do Museu</h1>
+        <img src="MuseuHome.jpg" width="75%" align="center" title="Participe da Comemoração!">
+        <h2 align="center"> Sobre o Dia do Museu </h2>
+        <a href="DetalhesEvento.html"><button>Comemore o Dia do Museu Conosco</button></a>
+
+    </div>
+    
+    <p>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae iure sequi, cupiditate necessitatibus asperiores, odio recusandae in nesciunt et maxime fugiat vero corrupti. Consectetur eius voluptatibus temporibus architecto mollitia accusantium labore, rem doloribus minus voluptatum dolor, officiis illum laborum placeat, quis ab a qui repellat nulla quasi soluta sunt! Aliquid ducimus explicabo fugit molestiae nam, voluptates dolorem quasi provident ullam vel amet non molestias aliquam recusandae? Corporis impedit, ex ut maxime, minima obcaecati dolores fugit adipisci velit asperiores deleniti magnam magni neque earum a ipsum assumenda odit? Consequatur vero quam nemo repellendus sit ut necessitatibus, a nihil eos quisquam.
+
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fugiat temporibus iure maiores eum, hic et quia id explicabo, facilis quos unde veniam nemo deserunt, harum quis soluta. Odio inventore sequi assumenda ab, architecto aliquid aperiam, est rem ipsam natus illum blanditiis ea quisquam nulla earum necessitatibus laudantium vel! Deleniti voluptas non, dignissimos, animi inventore itaque tempore ipsam repellat officia dolorem alias dolores. Quo repellat beatae laboriosam fuga sit ipsa minus odit. Nisi accusamus sit eligendi totam laboriosam est unde quia rem aliquam aperiam, perferendis facilis ut error fugiat expedita, velit beatae ad numquam consectetur ratione. Ea laborum reiciendis nostrum.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem deserunt qui accusamus quo modi exercitationem? Optio aperiam dignissimos veniam nobis, neque expedita nisi odio dolorem nihil quis voluptate obcaecati repudiandae at fugiat minus deleniti nesciunt quae ab amet doloremque? Porro eum dolorem veritatis, libero adipisci ipsam, facilis doloremque veniam illo a quasi cum. Quidem, inventore provident minima ratione quod tempore atque error magnam, nostrum ad aspernatur tenetur? Corporis, voluptate commodi? Corrupti sed, nemo tempore magni assumenda quos id culpa! Ex odit nulla facere veniam tempore eligendi esse numquam asperiores? Dolorem laudantium natus magnam doloremque modi eos? Possimus doloremque maxime obcaecati!
+    </p>
+    
+    <div class="row">
+        <div class="column">
+          <img src="Historia.jpg" alt="Histora" style="width:250px">
+        </div>
+        <div class="column">
+          <img src="Mundo.jpg" alt="Mundo" style="width:250px">
+        </div>
+        <div class="column">
+          <img src="MuseuBrasil.jpg" alt="Brasil" style="width: 250px" height="">
+        </div>
+      </div>
+
+    
+
+
+
+</body>
+</html>
